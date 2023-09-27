@@ -1,12 +1,109 @@
 /*
-font-family: 'Black Ops One', cursive;
-font-family: 'Holtwood One SC', serif;
-font-family: 'Qwitcher Grypen', cursive;
-font-family: 'Rubik Iso', cursive;
+font-family: 'Mooli', sans-serif;
 */
 
-h1{
-    color: blue;
-    font-family: 'Rubik Iso', cursive;
+.main{
+    display: flex;
+    justify-content: center;
+    width:100vw;
+    font-family: 'Mooli', sans-serif;
 }
 
+.leftSection{
+    flex-grow: 1;
+  position: relative;
+  width: 60vw;
+  min-width: 345px;
+  height: 100vh;
+  background: url(/Assets/Nature.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.leftSection div {
+    width: 100%;
+  background-color: rgba(0, 0, 0, 0.333);
+  line-height: 2rem;
+  padding: 0px 2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.leftSection p {
+    font-size: .8rem;
+    position: absolute;
+    bottom: 0px;
+    left: 5px;
+}
+
+.leftSection img {
+    width: 5rem;
+    padding: 10px;
+}
+
+label, input {
+    display: block;
+    position: relative;
+}
+
+.formSection{
+    display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  width: 60vw;
+  padding: 1.2rem 2vw 3rem 2vw;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.123);
+}
+
+.formContainer{
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.123);
+    display: flex;
+    width: 500px;
+    justify-content: left;
+    align-items: start;
+    flex-grow: 2;
+    background-color: rgb(240, 240, 240);
+}
+
+form{
+    display: flex;
+    width: 60vw;
+    flex-flow: row wrap;
+    gap: 1rem;
+    font-size: 1rem;
+}
+
+.headerSection {
+    background-color: #edede9;
+    font-family: 'Holtwood One SC', serif;
+    
+}
+
+.buttonSection {
+    background-color: #edede9;
+    padding: 20px;
+}
+
+#createAccountBtn{
+    background-color: #596D48;
+    color: white;
+    border-radius: 5px;    
+    
+    font-family: 'Mooli', sans-serif;
+    font-size: 10px;
+}
+
+.buttonSection span{
+    color: green;
+}
+
+.headerSection span {
+    font-style: italic;
+}
